@@ -54,21 +54,13 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
 var getMarkdown = generateMarkdown(data);
-console.log(getMarkdown);
+fs.writeFileSync(fileName, getMarkdown);
 }
 
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
     .then(function(data){
-        // const newTitle = data.repoTitle;
-        // const newDescription = data.repoDescription;
-        // const newInstallation = data.repoInstallation;
-        // const newUsage = data.repoUsage;
-        // const newContributing = data.repoContributing;
-        // const newTests = data.repoTests;
-        
-        // console.log(data);
         writeToFile("README.md", data);
     });
 }
