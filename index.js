@@ -3,9 +3,7 @@ const fs = require('fs');
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown');
 // TODO: Create an array of questions for user input
-// const questions = [];
-
-inquirer.prompt([
+const questions = [
     {
         name: 'repoTitle',
         message: 'Enter a title for your GitHub repository',
@@ -40,7 +38,7 @@ inquirer.prompt([
         name: "repoLicense",
         type: 'list',
         message: 'Select a license for your project',
-        choices: ['license1', 'secondLicense', 'perhaps a third?'],
+        choices: ['GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT Liecense', 'Boost Software License 1.0', 'The Unlicense'],
     },
     {
         name: 'repoGitHubName',
@@ -50,8 +48,16 @@ inquirer.prompt([
         name: 'repoEmail',
         message: 'Enter your email to direct questions about your project',
     },
+    ];
     
-    ]).then(function(data){
+
+// TODO: Create a function to write README file
+function writeToFile(fileName, data) {}
+
+// TODO: Create a function to initialize app
+function init() {
+    inquirer.prompt(questions)
+    .then(function(data){
         const newTitle = data.repoTitle;
         const newDescription = data.repoDescription;
         const newInstallation = data.repoInstallation;
@@ -59,15 +65,9 @@ inquirer.prompt([
         const newContributing = data.repoContributing;
         const newTests = data.repoTests;
         
-
         console.log(data);
     });
-
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
-
-// TODO: Create a function to initialize app
-function init() {}
+}
 
 // Function call to initialize app
 init();
