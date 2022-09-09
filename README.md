@@ -16,7 +16,7 @@
   ## Installation
   Navigate to the index.js and run npm init, then run npm install inquirer@8.2.4.
   ## Usage
-  Navigate to the directory containing index.js and run node.js
+  Navigate to the directory containing index.js and run node.js. After completing the prompts, the generated README.md is put in the output directory.
   ## Contributing
   To contribute to this project, contact me at the links in the questions section
   ## Tests
@@ -29,5 +29,5 @@
 [Link to screencastify video (google drive wasn't working for me)](https://watch.screencastify.com/v/qwDYkd8w2VWUjei80UV8)
 
  [Link to video in project files](https://github.com/BBelk/readme-generator-project/blob/main/images/readmeGeneratorVideo.webm)
- 
+
  ![Alt text](https://github.com/BBelk/readme-generator-project/blob/main/images/readme-generator-project-image.png "README Screenshot")
