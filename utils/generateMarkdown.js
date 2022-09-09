@@ -96,7 +96,7 @@ function generateMarkdown(data) {
   ## License
   This project is under the ${data.license} license. More information is available at this link: [here](${renderLicenseLink(data.license)})
   ## Questions
-  Direct any questions to my GItHub account [https://GitHub.com/${data.githubName}](https://GitHub.com/${data.githubName}) or to the email ${data.email}. Thank you.
+  Direct any questions to my GitHub account [https://GitHub.com/${data.githubName}](https://GitHub.com/${data.githubName}) or to the email ${data.email}. Thank you.
 `;
 }
 
