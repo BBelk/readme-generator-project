@@ -6,32 +6,32 @@ const generateMarkdown = require('./utils/generateMarkdown');
 const questions = [
     {
         name: 'title',
-        message: 'Enter a title for your GitHub repository',
+        message: 'Enter a title for your GitHub repository: ',
         default: 'README-PROJECT',
     },
     {
         name: 'description',
-        message: 'Enter a description for your README',
+        message: 'Enter a description for your README: ',
         default: 'Default Description',
     },
     {
         name: 'installation',
-        message: 'Enter the instructions for the installation of your project',
+        message: 'Enter the instructions for the installation of your project: ',
         default: 'Default instrucitons',
     },
     {
         name: 'usage',
-        message: 'Enter the usage information for your project',
+        message: 'Enter the usage information for your project: ',
         default: 'Default usage',
     },
     {
         name: 'contributing',
-        message: 'Enter information on how to contribute to this project',
+        message: 'Enter information on how to contribute to this project: ',
         default: 'Default contributers',
     },
     {
         name: 'tests',
-        message: 'Enter the information on tests for your project',
+        message: 'Enter the information on tests for your project: ',
         default: 'Default tests',
     },
     {
@@ -41,12 +41,14 @@ const questions = [
         choices: ['GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT Liecense', 'Boost Software License 1.0', 'The Unlicense'],
     },
     {
-        name: 'gitHubName',
-        message: 'Enter your GitHub username to direct questions about your project',
+        name: 'githubName',
+        message: 'Enter your GitHub username to direct questions about your project: ',
+        default:'BBelk'
     },
     {
         name: 'email',
-        message: 'Enter your email to direct questions about your project',
+        message: 'Enter your email to direct questions about your project: ',
+        default:'belkbh@gmail.com'
     },
     ];
     
@@ -54,7 +56,7 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
 var getMarkdown = generateMarkdown(data);
-fs.writeFileSync(fileName, getMarkdown);
+fs.writeFileSync(`output/${fileName}`, getMarkdown);
 }
 
 // TODO: Create a function to initialize app

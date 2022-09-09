@@ -1,4 +1,4 @@
-# zazaazaz
+# readme-generator-project
 
   ## Table of contents
   1. [Description](#description)
@@ -7,21 +7,23 @@
   4. [Contributing](#contributing)
   5. [Tests](#tests)
   6. [License](#license)
-  7. [Questions](#Questions)
+  7. [Questions](#questions)
+  8. [Visuals](#visuals)
 
   ## Description
-  sxsxssxs
+  ![License: The Unlicense](https://img.shields.io/badge/License-Unlicense-success.svg)<br />
+  This is a node js script that generates a README file for a user. It accomplishes this through a series of prompts using inquirer and the command prompt.
   ## Installation
-  dcdcdcdccdc
+  Navigate to the index.js and run npm init, then run npm install inquerer@8.2.4.
   ## Usage
-  fvfvfvvfvf
+  Navigate to the directory containing index.js and run node.js
   ## Contributing
-  gggbgbbgbgb
+  To contribute to this project, contact me at the links in the questions section
   ## Tests
-  nhhnhnhnhnhn
+  No tests were performed
   ## License
-  License stuff goes here
-  undefined
-  [License information available here](undefined)
+  This project is under the The Unlicense license. More information is available at this link: [here](https://choosealicense.com/licenses/unlicense/)
   ## Questions
-  Direct any questions to the github account of undefined or to the email ,k,,k,k,k,k,. Thank you.
+  Direct any questions to my GItHub account [https://GitHub.com/Bbelk](https://GitHub.com/Bbelk) or to the email belkbh@gmail.com. Thank you.
+  ## Visuals
+ <!-- ![Alt text](./assets/images/Weather-Dashboard-Image.png "Website Screenshot") -->
