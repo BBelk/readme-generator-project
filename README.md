@@ -26,7 +26,12 @@
   ## Questions
   Direct any questions to my GitHub account [https://GitHub.com/Bbelk](https://GitHub.com/Bbelk) or to the email belkbh@gmail.com. Thank you.
   ## Visuals
-[Link to screencastify video (google drive wasn't working for me)](https://watch.screencastify.com/v/qwDYkd8w2VWUjei80UV8)
+  
+[Link to google drive for video](
+  https://drive.google.com/file/d/1YhnzV_q6MFBZQotOmuR2qNdw-OTOZe3s/view?usp=sharing
+)
+
+[Link to screencastify video](https://watch.screencastify.com/v/qwDYkd8w2VWUjei80UV8)
 
  [Link to video in project files](https://github.com/BBelk/readme-generator-project/blob/main/images/readmeGeneratorVideo.webm)
 
