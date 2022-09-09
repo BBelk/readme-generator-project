@@ -26,4 +26,4 @@
   ## Questions
   Direct any questions to my GItHub account [https://GitHub.com/Bbelk](https://GitHub.com/Bbelk) or to the email belkbh@gmail.com. Thank you.
   ## Visuals
- ![Alt text](./images\readme-generator-project-image.png "README Screenshot")
+ ![Alt text](https://github.com/BBelk/readme-generator-project/blob/main/images/readme-generator-project-image.png "README Screenshot")
