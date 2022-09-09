@@ -80,7 +80,7 @@ function generateMarkdown(data) {
   4. [Contributing](#contributing)
   5. [Tests](#tests)
   6. [License](#license)
-  7. [Questions](#Questions)
+  7. [Questions](#questions)
 
   ## Description
   ${renderLicenseBadge(data.license)}
